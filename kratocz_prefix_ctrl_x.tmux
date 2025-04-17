@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
-set -g prefix C-x
-set -g prefix2 C-x
+tmux set -g prefix C-x
+tmux set -g prefix2 C-x
 
 # <prefix> Ctrl+X
 tmux unbind C-x
